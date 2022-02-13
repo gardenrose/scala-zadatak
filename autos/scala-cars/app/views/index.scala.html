@@ -1,0 +1,32 @@
+@()
+
+@main("Welcome to Play") {
+  <!--Ovo mozemo zanemariti, dodano je samo ako bi
+  korisnik unosio novu reklamu u browseru-->
+  <h1>Create car advert</h1>
+  <form method="post" action="adverts">
+    <label>ID</label>
+    <input name="id"></input>
+    <br>
+    <label>Title</label>
+    <input name="title"></input>
+    <br>
+    <label>Fuel type</label>
+    <input name="fueltype"></input>
+    <br>
+    <label>Price</label>
+    <input name="price"></input>
+    <br>
+    <label>Is new</label>
+    <input name="isnew"></input>
+    <br>
+    <label>Mileage</label>
+    <input name="mileage"></input>
+    <br>
+    <label>First registered</label>
+    <input name="firstregistration"></input>
+    <br>
+    <input type="submit"></input>
+  </form>
+  
+}
